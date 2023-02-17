@@ -1,0 +1,50 @@
+#stopwatch {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  #timerContainer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    width:700px;
+    margin:20px auto;
+    min-height: 60px;
+    border-top:0px;
+  }
+  .timer, .reset {
+    float:left;
+    width: 54%;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align:center;
+    color: #fff;
+    background: #A90000;
+    cursor: pointer
+  }
+  .reset {
+    background: #550000;
+    color: white;
+    width:14.9%;
+    border-left: 1px solid #990000;
+  }
+  .reset:hover {
+    background: #CC0000;
+  }
+  .lighter {
+    background: #CC0000
+  }
